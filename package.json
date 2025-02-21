@@ -9,7 +9,11 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/chai": "^5.0.1",
+    "@types/chai-as-promised": "^8.0.1",
+    "@types/mocha": "^10.0.10",
     "chai": "^5.2.0",
+    "chai-as-promised": "^8.0.1",
     "mocha": "^11.1.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3"
