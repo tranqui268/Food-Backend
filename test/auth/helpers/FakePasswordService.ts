@@ -1,4 +1,3 @@
-
 import IPasswordService from '../../../src/auth/services/IPasswordService'
 
 export default class FakePasswordService implements IPasswordService {

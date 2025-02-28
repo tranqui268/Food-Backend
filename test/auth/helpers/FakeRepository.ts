@@ -1,15 +1,14 @@
-
 import IAuthRepository from '../../../src/auth/domain/IAuthRepository'
 import User from '../../../src/auth/domain/User'
 
 export default class FakeRepository implements IAuthRepository {
   public users = [
     {
-        email: 'tranvana@gmail.com',
-        id : '1234',
-        name: 'kevin',
-        password: '$2b$10$K0HEqyYUlQLaj.Xkp9tDzuRclzJqdKCYV7gEHtSVIlu8NRtLM6flC',
-        type : 'email',
+      email: 'baller@gg.com',
+      id: '1234',
+      name: 'Ken',
+      password: '$2b$10$K0HEqyYUlQLaj.Xkp9tDzuRclzJqdKCYV7gEHtSVIlu8NRtLM6flC',
+      type: 'email',
     },
     {
       email: 'tester@gmail.com',

@@ -1,6 +1,11 @@
-import User from "./User";
+import User from './User'
 
-export default interface IAuthRepository{
-    find(email : string): Promise<User>
-    add(name : string, email : string, password : string, type : string) : Promise<string> 
+export default interface IAuthRepository {
+  find(email: string): Promise<User>
+  add(
+    name: string,
+    email: string,
+    type: string,
+    passwordHash?: string
+  ): Promise<string>
 }
